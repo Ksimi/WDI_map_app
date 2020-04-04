@@ -1,0 +1,177 @@
+/* Defining the overall style */
+html, body, leaflet, .legend, h1, h2, h3, h4, h5, h6 {
+    font-family: Segoe UI;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+/*Error & notification styling */
+#shiny-notification-panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 100px;
+    }
+
+/*Error & notification styling */    
+.shiny-notification {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    }
+
+/*Error & notification styling */   
+.shiny-output-error {
+    visibility: hidden;
+    }
+
+/*Error & notification styling */    
+.shiny-output-error:before {
+    visibility: hidden;
+    }
+
+/*Indicator definition styling */
+.definition {
+    background-color: #E8E8E8;
+    font-size: 12px;
+    font-weight : 400;
+    height: 100%;
+    width: 60%;
+    bottom: 18px;
+    left: 320px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 5px;
+    opacity: 0.8;
+    }
+
+/*Selectize input styling */
+.selectize-control.single .selectize-input:after {
+  right: 10px;
+}
+
+/*Legend styling */
+.info {
+    font-family: Segoe UI;
+    background-color: #E8E8E8;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 5px;
+    opacity: 0.9;
+}
+
+/*Legend styling */
+.legend {
+    color: #404040;
+}
+
+/*Legend styling */
+.legend svg text {
+    fill: black;
+}
+
+/*Check box styling */
+.leaflet-control-layers-expanded {
+      padding: 5px;
+      color: #404040;
+    }
+
+/*Check box styling */
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: 0;
+    background-clip: padding-box;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background-color: #E8E8E8;
+    opacity: 0.9;
+}
+
+/* shiny-output-error:before, :after {
+  font-size: 14px;
+}
+
+/* shiny-output-error:before, :after {
+    left: 10px;
+    font-size: 30px;
+    }
+
+/*.leaflet .legend {
+    line-height: 20px;
+    color: black;
+    }
+    
+.legend i {
+    width: 18px;
+    height: 20px;
+    margin-right: 10px;
+    }
+    
+
+    
+.info {
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight : 400;
+    background-color: #E8E8E8;
+    padding: 10px 10px 10px 10px;
+    opacity: 0.9;
+    }
+    
+
+.leaflet-left .leaflet-control, .leaflet-bottom .leaflet-control {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #E8E8E8;
+    opacity: 0.9;
+    }
+
+div.info.legend.leaflet-control br {
+    clear: both;
+    }
+    
+.selectize-input {
+    padding: 6px 18px 6px 6px
+    }
+    
+.selectize-control.single {
+    right: 10px;
+    }
+    
+.selectize-input:after {
+    right: 10px;
+    }
+    
+.leaflet-control-layers-expanded {
+      padding: 6px 6px 6px 6px;
+      color: black;
+    }
+    
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: 0;
+    background-color: #E8E8E8;
+    opacity: 0.9;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    
+.checkbox label, .radio label {
+    font-size: 14px;
+    }
+    
+.checkbox, .radio {
+    margin-bottom: 5px;
+    }
+    
+.leaflet-container .leaflet-control-attribution {
+    margin-right: 10px;
+    border-radius: 2px;
+    }
+    
+.leaflet-container {
+    font-family: Segoe UI;
+    font-size: 14px;
+    }
+    
+.legend i .style {
+      visibility: hidden;
+    }
+*/
