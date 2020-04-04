@@ -14,4 +14,4 @@ The [World Development Indicators](http://datatopics.worldbank.org/world-develop
 *	Palette type selection between continuous, improved bins (with a proprietary algorithm) and quantile ones
 *	Map type selection between regular and scaled (normalized cartogram-like)
 
-Big thanks to all relevant sources of code, such as [Stack Overflow](htpps://stackoveflow.com), [Leaflet for R](https://rstudio.github.io/leaflet/),  [Geocomputation with R](https://geocompr.robinlovelace.net/adv-map.html) and [Garrett & Hadley](https://r4ds.had.co.nz/).
+Big thanks to all relevant sources of code, such as [Stack Overflow](https://stackoverflow.com/), [Leaflet for R](https://rstudio.github.io/leaflet/),  [Geocomputation with R](https://geocompr.robinlovelace.net/adv-map.html) and [Garrett & Hadley](https://r4ds.had.co.nz/).
