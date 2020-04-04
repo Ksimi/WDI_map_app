@@ -6,7 +6,7 @@ The [World Development Indicators](http://datatopics.worldbank.org/world-develop
 
 #### While the WDI web site provides some basic map visualization, the WDI_map_app extends the visual appeal of the maps by offering a simplified procedure to extract the indicator and representing the data on a choropleth map with a lot of additional options. Therefore, the main purpose of the app is to provide a one-stop shop for visualizing the vast array of the World Development Indicators using a choropleth map. 
 
-## The app features:
+### The app features:
 *	One universal tool for all indicators regardless their type
 *	Interdependent filtering by topic, subtopic and year
 *	Automatic filtering out the years without any data
