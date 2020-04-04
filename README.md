@@ -1,6 +1,6 @@
 # WDI_map_app
 
-###World Development Indicators on a universal choropleth map###
+### World Development Indicators on a universal choropleth map
 
 The [World Development Indicators](http://datatopics.worldbank.org/world-development-indicators/) are a compilation of relevant, high-quality, and internationally comparable statistics compiled by the World Bank from officially recognized international sources. The database contains 1,600 time series indicators for 217 economies and more than 40 country groups, with data for many indicators going back more than 50 years.
 
