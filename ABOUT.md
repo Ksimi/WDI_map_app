@@ -13,3 +13,5 @@ The [World Development Indicators](http://datatopics.worldbank.org/world-develop
 *	Extensive palette color selection between sequential and diverging color sets
 *	Palette type selection between continuous, improved bins (with a proprietary algorithm) and quantile ones
 *	Map type selection between regular and scaled (normalized cartogram-like)
+
+### Big thanks to all sources of my inspiration, such as Stack Overflow, Leaflet for R,  Geocomputation with R and for sure, Garrett & Hadley.
