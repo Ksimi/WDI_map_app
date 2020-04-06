@@ -5,12 +5,16 @@ html, body, leaflet, .legend, h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     }
+    
+body {
+  font-size: 14px;
+}
 
 /*Error & notification styling */
 #shiny-notification-panel {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     width: 400px;
     height: 100px;
     }
@@ -19,6 +23,7 @@ html, body, leaflet, .legend, h1, h2, h3, h4, h5, h6 {
 .shiny-notification {
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 4px;
+    font-size: 16px;
     }
 
 /*Error & notification styling */   
@@ -33,18 +38,25 @@ html, body, leaflet, .legend, h1, h2, h3, h4, h5, h6 {
 
 /*Indicator definition styling */
 .definition {
-    background-color: #E8E8E8;
-    font-size: 12px;
-    font-weight : 400;
-    height: 100%;
-    width: 60%;
-    bottom: 18px;
-    left: 320px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    border-radius: 4px;
-    padding: 5px;
-    opacity: 0.8;
-    }
+  background-color: #E8E8E8;
+  font-size: 14px;
+  height: 100%;
+  width: 60%;
+  bottom: 18px;
+  left: 380px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 5px;
+  opacity: 0.4;
+  zoom: 0.9;
+  transition: opacity 300ms 1s;
+}
+
+/* Change opacity when hover on */
+.definition:hover {
+  opacity: 0.9;
+  transition-delay: 0;
+}
 
 /*Selectize input styling */
 .selectize-control.single .selectize-input:after {
@@ -86,92 +98,51 @@ html, body, leaflet, .legend, h1, h2, h3, h4, h5, h6 {
     opacity: 0.9;
 }
 
-/* shiny-output-error:before, :after {
-  font-size: 14px;
+.form-group {
+    margin-bottom: 6px;
 }
 
-/* shiny-output-error:before, :after {
-    left: 10px;
-    font-size: 30px;
-    }
+.form-control {
+    font-size: 14px;
+    line-height: 14px;
+}
 
-/*.leaflet .legend {
-    line-height: 20px;
-    color: black;
-    }
-    
-.legend i {
-    width: 18px;
-    height: 20px;
-    margin-right: 10px;
-    }
-    
-
-    
-.info {
-    font-family: Segoe UI;
-    font-size: 16px;
-    font-weight : 400;
-    background-color: #E8E8E8;
-    padding: 10px 10px 10px 10px;
-    opacity: 0.9;
-    }
-    
-
-.leaflet-left .leaflet-control, .leaflet-bottom .leaflet-control {
-    margin-left: 20px;
-    margin-bottom: 20px;
-    background-color: #E8E8E8;
-    opacity: 0.9;
-    }
-
-div.info.legend.leaflet-control br {
-    clear: both;
-    }
-    
 .selectize-input {
-    padding: 6px 18px 6px 6px
-    }
-    
-.selectize-control.single {
-    right: 10px;
-    }
-    
-.selectize-input:after {
-    right: 10px;
-    }
-    
-.leaflet-control-layers-expanded {
-      padding: 6px 6px 6px 6px;
-      color: black;
-    }
-    
-.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    min-height: 20px;
     border: 0;
-    background-color: #E8E8E8;
-    opacity: 0.9;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 4px;
     }
-    
+
 .checkbox label, .radio label {
-    font-size: 14px;
+  min-height: 14px;
+    }
+
+label {
+  margin-bottom: 2px;
+  padding: 1px;
+}
+
+.checkbox label, .radio label {
+    min-height: 12px;
+    font-size: 13px;
     }
     
+.shiny-input-radiogroup label ~ .shiny-options-group {
+  line-height: 16px;
+  }
+  
+input[type=checkbox], input[type=radio] {
+    margin: 2px 0 0;
+    line-height: normal;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+  margin-left: -16px;
+}
+  
 .checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
     margin-bottom: 5px;
-    }
-    
-.leaflet-container .leaflet-control-attribution {
-    margin-right: 10px;
-    border-radius: 2px;
-    }
-    
-.leaflet-container {
-    font-family: Segoe UI;
-    font-size: 14px;
-    }
-    
-.legend i .style {
-      visibility: hidden;
-    }
-*/
+}
