@@ -8,7 +8,7 @@ The [World Development Indicators](http://datatopics.worldbank.org/world-develop
 
 ### The app features:
 *	One universal tool for all indicators regardless their type
-*	Interdependent filtering by topic, subtopic and year
+*	Interdependent filtering by topic, up to 2 subtopics and year
 *	Automatic filtering out the years without any data
 *	Extensive palette color selection between sequential and diverging color sets
 *	Palette type selection between continuous, improved bins (with a proprietary algorithm) and quantile ones
