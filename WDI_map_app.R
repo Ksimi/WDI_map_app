@@ -582,7 +582,7 @@ server <- function (input, output, session) {
     
     # Tiles with no names as a background
     Provider_tiles_Nonames <- function(map){
-      addProviderTiles(map, "Hydda.Base",
+      addProviderTiles(map, "Esri.WorldTerrain",
                        group = "Map tiles")
       }
     
