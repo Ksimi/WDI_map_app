@@ -17,3 +17,7 @@ The [World Development Indicators](http://datatopics.worldbank.org/world-develop
 Big thanks to all relevant sources of code, such as [Stack Overflow](https://stackoverflow.com/), [Leaflet for R](https://rstudio.github.io/leaflet/),  [Geocomputation with R](https://geocompr.robinlovelace.net/adv-map.html) and [Garrett & Hadley](https://r4ds.had.co.nz/).
 
 Please note that some code glitches might be placeholders for future app development.
+
+Here is the direct link to the WDI map app on the shinyapp.io:
+
+https://ksimi.shinyapps.io/WDI_map_app/
